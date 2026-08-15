@@ -1,1 +1,22 @@
+# Numeric vector
+n <- as.numeric(strsplit(readline("Enter 3 numbers separated by space: "), " ")[[1]])
+
+# Character vector
+c <- strsplit(readline("Enter 3 names separated by space: "), " ")[[1]]
+
+# Logical vector
+l <- as.logical(strsplit(
+  readline("Enter 3 logical values (TRUE/FALSE): "), " ")[[1]]
+)
+
+cat("\nNumeric vector:", n)
+cat("\nType:", typeof(n))
+
+cat("\n\nCharacter vector:", c)
+cat("\nType:", typeof(c))
+
+cat("\n\nLogical vector:", l)
+cat("\nType:", typeof(l))
+
+
 
